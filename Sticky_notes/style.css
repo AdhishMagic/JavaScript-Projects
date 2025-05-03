@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(to left, #93B1A6, #5C8374);
+}
+
+.header{
+    text-align: center;
+    color: black;
+    margin-top: 20px;
+}
+
+#main{
+    min-height: 100vh;
+    padding-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#addBtn{
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    background-color: #183D3D;
+    border: none;
+    padding: 10px;
+    color: white;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#addBtn:hover{
+    background-color: #183D3D;
+}
+
+.note{
+    background: transparent;
+    margin: 15px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.tool{
+    background-color: #040D12;
+    color: white;
+    padding: 5px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.tool i{
+    padding: 5px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.tool i:hover{
+    color: #5C8374;
+}
+
+.note textarea{
+    width: 300px;
+    border: none;
+    min-height: 220px;   
+    resize: none;     
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+    overflow: hidden;
+    background-color: #1A3636;
+    border-radius: 0px 0px 10px 10px;
+    transition: background-color 0.3s ease;
+}
+
+.note textarea:hover{
+    background-color: #244242;
+}
+
+.note textarea:focus{
+    outline: none;
+}
